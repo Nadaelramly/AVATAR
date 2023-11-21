@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+*{
+  font-family:'Ubuntu', sans-serif ; 
+   padding: 0; 
+margin: 0;
+}
+a{
+
+    color: rgb(252, 251, 250);
+    text-decoration: none;
+}
+
+body{
+background-image:linear-gradient(to right,#01022d,#000) ;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.container{
+background-image:
+linear-gradient(to right,#01022dbc 30%,#00000088),
+url(bg.webd.png)
+;
+background-position: center;
+  width: 90%;
+  height: 640px;
+}
+.container:hover{
+background-image:
+linear-gradient(to right,#01022de5 30%, transparent),
+url(bg.webd.png)
+;
+}
+header{
+display: flex;
+justify-content:space-between ;
+align-items:center ;
+padding: 10px;
+}
+
+.logo{
+font-size: 30px;
+text-transform: uppercase;
+}
+ul{
+    width: 60%;
+list-style:none ;
+display: flex;
+justify-content: space-evenly;
+
+}
+ul a{
+border-bottom: 2px solid transparent;
+
+}
+ul a:hover{
+    border-bottom-color: white;
+}
+
+.content{
+color: white;
+width: 40%;
+margin-top: 30%;
+padding: 30px;
+}
+.content h2{
+font-size: 90px;
+text-transform: uppercase;
+}
+
+.content p{
+letter-spacing: 2px;
+width: 400px;
+padding: 20px 0;
+}
+
+.content button{
+font-size: 30px;
+padding: 6px 10px;
+border-radius: 10px;
+border: 2px solid transparent;
+cursor:pointer ;
+}
+
+.content button:hover{
+background-color: transparent;
+border-color: white;
+color: white;
+
+}
+
+
+
+
+
+
